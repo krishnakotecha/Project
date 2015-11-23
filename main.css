@@ -1,0 +1,199 @@
+* {
+	font-style: "Helvetica";
+	margin: 0;
+	padding: 0;
+}
+.container {
+	background-color:;
+}
+
+div {
+	display: block;
+}
+
+header {
+	background-color: ;
+}
+
+h1 {
+	padding-right: 100px;
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+h3 {
+	padding-right: 100px;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+ul li {
+	background-color: black;
+	display: inline;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}	
+
+/*ul li ul li{
+	display:none;
+	position:absolute;
+	visibility: hidden;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+ul ul li{	
+	float:none;
+	width:50px
+*/
+
+#politics {
+	background-color: #CC0066;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+}
+#business {
+	background-color: #CC3399;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+}
+#technology {
+	background-color: #CC66CC;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+}
+#art {
+	background-color: #CC99FF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+}
+#philanthropy {
+	background-color: #99FFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+}
+#fashion {
+	background-color: #33CCFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+}
+
+#politics:hover, #business:hover, #technology:hover, #art:hover, #philanthropy:hover, #fashion:hover {
+	background-color: #FFFF66;
+	text-decoration: none;
+	background-color: gray; 
+	color: white;
+}
+
+/*.carouselsliding {
+	padding: 100px; 
+;
+}
+ div img{
+	text-align: center; 
+	margin-right: auto;
+	margin-left: auto;
+} */
+#kyi {
+	align: center; 
+}
+
+.quote {
+	font-size: 13px;
+}
+#content {
+	font-size: 20px;
+}
+
+#politicssection {
+	background-color:#CC0066;
+}
+#businesssection {
+	background-color:#CC3399;
+}
+#technologysection {
+	background-color:#CC66CC;
+}
+#artsection {
+	background-color:#CC99FF;
+	}
+#philanthropysection {
+	background-color:#99FFFF;
+}
+#fashionsection {
+	background-color:#33CCFF;
+}
+a:link {
+	color: black; 
+	text-decoration: none; 
+}
+a:active {
+	text-decoration: underline;
+	}
+a:visited {
+	text-decoration: none;
+	color: black;
+} 	
+
+.cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+.cf img {
+	display: inline;
+	float: left;
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.cf img.top:hover {
+  opacity:0;
+}
+
+#politicssection, #businesssection, #technologysection, #artsection, #philanthropysection, #fashionsection {
+	border: 2px solid black;
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+	overflow: visible;
+}
+
+.menubar {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	width: 90%;
+}
+
+footer {
+	text-align: center; 
+	background-color: white; 
+}
